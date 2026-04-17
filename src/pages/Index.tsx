@@ -22,10 +22,6 @@ import CustomCursor from "@/components/CustomCursor";
 import AnimatedBackground from "@/components/AnimatedBackground";
 import FloatingActionButton from "@/components/FloatingActionButton";
 import KonamiCode from "@/components/KonamiCode";
-import GlobeHero from "@/components/GlobeHero";
-import FloatingGeometries from "@/components/FloatingGeometries";
-import ScrollTriggered3D from "@/components/ScrollTriggered3D";
-import Skills3D from "@/components/Skills3D";
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -42,13 +38,9 @@ const Index = () => {
         <ThreeDParticles />
         <Navigation />
         <Hero />
-        <GlobeHero />
         <About />
-        <FloatingGeometries />
         <Skills />
-        <Skills3D />
         <Certifications />
-        <ScrollTriggered3D />
         <Projects />
         <Internships />
         <DeveloperActivity />
