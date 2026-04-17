@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import { Zap, Code2 } from "lucide-react";
 
 const techLogos = {
-    "n8n": "https://raw.githubusercontent.com/n8n-io/n8n/master/packages/design-system/src/assets/n8n-logo-square.svg",
-    "Make.com": "https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1512399053/bq0yppwycgpspb7mdfvl.png",
-    "Vapi": "https://assets.vapi.ai/vapi-icon.png",
-    "OpenAI APIs": "https://openai.com/favicon.ico",
-    "Google Stitch": "https://www.gstatic.com/devrel-devsite/prod/v1221deb8920cd4a55bd580441aa58e7853afc04b39a9d9ac4198e1cd7fbe04ef/google/images/touchicon-180.png",
-    "Base44": "https://www.base44.io/base44-logo.svg",
-    "Python": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
-    "C++": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
-    "SQL/PL-SQL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
-    "Pandas": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
-    "NumPy": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
-    "Power BI": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powerbi/powerbi-original.svg",
+    "n8n": "https://cdn.simpleicons.org/n8n/ffffff",
+    "Make.com": "https://cdn.simpleicons.org/make/ffffff",
+    "Vapi": "https://cdn.simpleicons.org/aiohttp/ffffff",
+    "OpenAI APIs": "https://cdn.simpleicons.org/openai/ffffff",
+    "Google Stitch": "https://cdn.simpleicons.org/googlecloud/ffffff",
+    "Base44": "https://cdn.simpleicons.org/airtable/ffffff",
+    "Python": "https://cdn.simpleicons.org/python/3776ab",
+    "C++": "https://cdn.simpleicons.org/cplusplus/00599c",
+    "SQL/PL-SQL": "https://cdn.simpleicons.org/postgresql/336791",
+    "Pandas": "https://cdn.simpleicons.org/pandas/150458",
+    "NumPy": "https://cdn.simpleicons.org/numpy/013243",
+    "Power BI": "https://cdn.simpleicons.org/powerbi/f2c811",
 };
 
 const skills = [
