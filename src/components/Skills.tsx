@@ -1,26 +1,16 @@
 import { motion } from "framer-motion";
-import { Code2, Database, Layout, Server, Terminal, Smartphone, Globe, Cpu } from "lucide-react";
+import { Code2, Cpu } from "lucide-react";
 
 const skills = [
     {
-        category: "Frontend",
-        icon: <Layout className="w-6 h-6 text-blue-400" />,
-        items: ["React", "TypeScript", "Tailwind CSS", "Next.js", "Vite", "Framer Motion"],
+        category: "AI Automation & Voice Agents",
+        icon: <Cpu className="w-6 h-6 text-purple-400" />,
+        items: ["n8n", "Make.com", "Vapi", "OpenAI APIs", "Google Stitch", "Base44"],
     },
     {
-        category: "Backend",
-        icon: <Server className="w-6 h-6 text-green-400" />,
-        items: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB", "Firebase"],
-    },
-    {
-        category: "Tools & DevOps",
-        icon: <Terminal className="w-6 h-6 text-purple-400" />,
-        items: ["Git", "Docker", "AWS", "Linux", "CI/CD", "Vercel"],
-    },
-    {
-        category: "Other",
-        icon: <Cpu className="w-6 h-6 text-orange-400" />,
-        items: ["System Design", "API Design", "Agile", "Testing", "Performance Optimization"],
+        category: "Core Technical Skills",
+        icon: <Code2 className="w-6 h-6 text-blue-400" />,
+        items: ["Python", "C++", "SQL/PL-SQL", "Pandas", "NumPy", "Power BI"],
     },
 ];
 
@@ -43,7 +33,7 @@ const Skills = () => {
                     </p>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {skills.map((skill, index) => (
                         <motion.div
                             key={skill.category}

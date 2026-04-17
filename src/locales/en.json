@@ -2,8 +2,8 @@
     "hero": {
         "badge": "CS ENGINEERING · AI SPECIALIST",
         "name": "SAMRUDH DWIVEDULA",
-        "tagline": "AI × Data × Security Innovator",
-        "description": "Passionate about building intelligent secure systems through the intersection of Artificial Intelligence, Data Science, and Network Security. Focused on ethical AI and innovative solutions for real-world challenges.",
+        "tagline": "AI Automation & Voice Agent Builder | B.Tech CSE",
+        "description": "Building intelligent AI automation workflows, voice agents, and task-performing AI systems that solve real-world problems. My journey started with Data Science, DSA, and Software Development — now evolving toward designing practical AI systems that connect tools, automate workflows, and create meaningful user experiences.",
         "viewProjects": "View Projects",
         "getInTouch": "Get In Touch",
         "resume": "Resume"
@@ -16,7 +16,7 @@
     "skills": {
         "badge": "SKILLS & EXPERTISE",
         "title": "Technical Arsenal",
-        "description": "A comprehensive toolkit spanning AI/ML, Security, Cloud, and Full-Stack Development"
+        "description": "AI Automation & Voice Agents paired with core technical skills for building intelligent systems"
     },
     "stats": {
         "badge": "LIVE ACTIVITY",
