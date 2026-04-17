@@ -51,6 +51,7 @@ const Skills = () => {
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {skills.map((skill, index) => (
                         <motion.div
                             key={skill.category}
                             initial={{ opacity: 0, y: 20 }}
@@ -89,6 +90,7 @@ const Skills = () => {
                                 ))}
                             </div>
                         </motion.div>
+                    ))}
                 </div>
             </div>
         </section>
