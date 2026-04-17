@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import { Zap, Code2 } from "lucide-react";
 
 const techLogos = {
-    "n8n": "https://cdn.simpleicons.org/n8n/ffffff",
-    "Make.com": "https://cdn.simpleicons.org/make/ffffff",
-    "Vapi": "https://cdn.simpleicons.org/aiohttp/ffffff",
-    "OpenAI APIs": "https://cdn.simpleicons.org/openai/ffffff",
-    "Google Stitch": "https://cdn.simpleicons.org/googlecloud/ffffff",
-    "Base44": "https://cdn.simpleicons.org/airtable/ffffff",
-    "Python": "https://cdn.simpleicons.org/python/3776ab",
-    "C++": "https://cdn.simpleicons.org/cplusplus/00599c",
+    "n8n": "https://cdn.simpleicons.org/n8n/FF6B35",
+    "Make.com": "https://cdn.simpleicons.org/make/000000",
+    "Vapi": "https://cdn.simpleicons.org/voice/4D96FF",
+    "OpenAI APIs": "https://cdn.simpleicons.org/openai/00A67E",
+    "Google Stitch": "https://cdn.simpleicons.org/googlecloud/4285F4",
+    "Base44": "https://cdn.simpleicons.org/zapier/FF4A00",
+    "Python": "https://cdn.simpleicons.org/python/3776AB",
+    "C++": "https://cdn.simpleicons.org/cplusplus/00599C",
     "SQL/PL-SQL": "https://cdn.simpleicons.org/postgresql/336791",
     "Pandas": "https://cdn.simpleicons.org/pandas/150458",
     "NumPy": "https://cdn.simpleicons.org/numpy/013243",
-    "Power BI": "https://cdn.simpleicons.org/powerbi/f2c811",
+    "Power BI": "https://cdn.simpleicons.org/powerbi/F2C811",
 };
 
 const skills = [
