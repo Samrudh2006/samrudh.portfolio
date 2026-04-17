@@ -125,15 +125,15 @@ export const ThreeDParticles = () => {
                     }}
                 >
                     <div
-                        className="w-full h-full border border-primary/30 relative preserve-3d"
+                        className="w-full h-full border border-primary/30 relative"
                         style={{
                             transformStyle: "preserve-3d",
                         }}
                     >
                         {/* Cube faces simulation */}
-                        <div className="absolute inset-0 border border-primary/30 translate-z-10" style={{ transform: "translateZ(30px)" }} />
-                        <div className="absolute inset-0 border border-secondary/30 -translate-z-10" style={{ transform: "translateZ(-30px)" }} />
-                        <div className="absolute inset-0 border border-accent/30 rotate-y-90" style={{ transform: "rotateY(90deg)" }} />
+                        <div className="absolute inset-0 border border-primary/30" style={{ transform: "translateZ(30px)" }} />
+                        <div className="absolute inset-0 border border-secondary/30" style={{ transform: "translateZ(-30px)" }} />
+                        <div className="absolute inset-0 border border-accent/30" style={{ transform: "rotateY(90deg)" }} />
                     </div>
                 </motion.div>
             ))}

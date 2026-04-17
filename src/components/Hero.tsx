@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, Github, Linkedin, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
 
 const Hero = () => {
   const containerVariants = {
@@ -126,6 +125,9 @@ const Hero = () => {
                   const link = document.createElement('a');
                   link.href = '/resume.pdf';
                   link.download = 'Samrudh_Dwivedula_Resume.pdf';
+                  link.onerror = () => {
+                    alert('Resume not available yet. Please contact me for a copy.');
+                  };
                   link.click();
                 }}
               >
