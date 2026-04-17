@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download, Github, Linkedin, Mail } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
 
 const Hero = () => {
   const containerVariants = {
@@ -74,7 +73,7 @@ const Hero = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  SAMRUDH DWIVEDULA
+                  AI Automation & Voice Agent Builder
                 </motion.span>
                 <motion.span
                   className="block text-2xl md:text-3xl lg:text-4xl font-light mt-4"
@@ -82,9 +81,7 @@ const Hero = () => {
                   animate={{ opacity: 1 }}
                   transition={{ duration: 0.8, delay: 0.4 }}
                 >
-                  <span className="text-primary">AI</span> ×{" "}
-                  <span className="text-secondary">Data</span> ×{" "}
-                  <span className="text-accent">Security</span> Innovator
+                  <span className="text-primary">B.Tech CSE</span>
                 </motion.span>
               </h1>
 
@@ -92,9 +89,7 @@ const Hero = () => {
                 variants={itemVariants}
                 className="text-lg text-muted-foreground max-w-xl leading-relaxed"
               >
-                Passionate about building intelligent secure systems through the intersection
-                of Artificial Intelligence, Data Science, and Network Security. Focused on
-                ethical AI and innovative solutions for real-world challenges.
+                Building intelligent AI automation workflows, voice agents, and task-performing AI systems that solve real-world problems. My journey started with Data Science, DSA, and Software Development — now evolving toward designing practical AI systems that connect tools, automate workflows, and create meaningful user experiences.
               </motion.p>
             </motion.div>
 
@@ -126,6 +121,9 @@ const Hero = () => {
                   const link = document.createElement('a');
                   link.href = '/resume.pdf';
                   link.download = 'Samrudh_Dwivedula_Resume.pdf';
+                  link.onerror = () => {
+                    alert('Resume not available yet. Please contact me for a copy.');
+                  };
                   link.click();
                 }}
               >

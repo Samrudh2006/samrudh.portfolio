@@ -66,6 +66,12 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 3000,
+    allowedHosts: [
+      "localhost",
+      "127.0.0.1",
+      ".vercel.run",
+      ".vercel.dev",
+    ],
   },
   plugins: [
     react(),

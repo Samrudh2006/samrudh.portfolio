@@ -11,8 +11,8 @@ const Experience = () => {
       organization: "Aditya University",
       location: "India",
       period: "Sep 2024 - Sep 2028",
-      description: "Pursuing B.Tech in Computer Science with a Minor in AI (IIT Mandi). Focused on Data Science, Machine Learning, and Full-Stack development.",
-      highlights: ["Minor in AI (IIT Mandi)", "Relevant coursework: DBMS, Agile Software Engineering", "Projects: FarmIntellect, CureCoders"]
+      description: "Pursuing B.Tech in Computer Science with a Minor in Network Security. Focused on Data Science, Machine Learning, and Full-Stack development.",
+      highlights: ["Minor in Network Security", "Relevant coursework: DBMS, Agile Software Engineering", "Projects: FarmIntellect, CureCoders"]
     },
     {
       type: "Education",
