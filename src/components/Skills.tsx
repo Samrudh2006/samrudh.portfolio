@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import { Zap, Code2 } from "lucide-react";
 
 const techLogos = {
-    "n8n": "/tech-logos/n8n.png",
-    "Make.com": "/tech-logos/make.png",
-    "Vapi": "/tech-logos/vapi.png",
-    "OpenAI APIs": "/tech-logos/openai.png",
-    "Google Stitch": "/tech-logos/google-stitch.png",
-    "Base44": "/tech-logos/base44.png",
-    "Python": "/tech-logos/python.png",
-    "C++": "/tech-logos/cpp.png",
-    "SQL/PL-SQL": "/tech-logos/sql.png",
-    "Pandas": "/tech-logos/pandas.png",
-    "NumPy": "/tech-logos/numpy.png",
-    "Power BI": "/tech-logos/powerbi.png",
+    "n8n": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/n8n/n8n-original.svg",
+    "Make.com": "https://cdn.worldvectorlogo.com/logos/make-com.svg",
+    "Vapi": "https://www.vapi.ai/favicon.ico",
+    "OpenAI APIs": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/openai/openai-original.svg",
+    "Google Stitch": "https://www.gstatic.com/devrel-devsite/prod/v2210deb8920cd4a55bd580441aa58e7853afc04b39a9d9ac4198e1cd7fbe04ef/google/images/lockup.svg",
+    "Base44": "https://www.base44.io/favicon.ico",
+    "Python": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+    "C++": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+    "SQL/PL-SQL": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+    "Pandas": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg",
+    "NumPy": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg",
+    "Power BI": "https://cdn.worldvectorlogo.com/logos/power-bi.svg",
 };
 
 const skills = [
