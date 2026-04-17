@@ -4,8 +4,8 @@ import { Zap, Code2 } from "lucide-react";
 const techLogos = {
     "n8n": "https://cdn.simpleicons.org/n8n/FF6B35",
     "Make.com": "https://cdn.simpleicons.org/make/000000",
-    "Vapi": "https://cdn.simpleicons.org/voice/4D96FF",
-    "OpenAI APIs": "https://cdn.simpleicons.org/openai/00A67E",
+    "Vapi": "https://www.vapi.ai/favicon.svg",
+    "OpenAI APIs": "https://platform.openai.com/favicon.ico",
     "Google Stitch": "https://cdn.simpleicons.org/googlecloud/4285F4",
     "Base44": "https://cdn.simpleicons.org/zapier/FF4A00",
     "Python": "https://cdn.simpleicons.org/python/3776AB",
@@ -13,7 +13,7 @@ const techLogos = {
     "SQL/PL-SQL": "https://cdn.simpleicons.org/postgresql/336791",
     "Pandas": "https://cdn.simpleicons.org/pandas/150458",
     "NumPy": "https://cdn.simpleicons.org/numpy/013243",
-    "Power BI": "https://cdn.simpleicons.org/powerbi/F2C811",
+    "Power BI": "https://app.powerbi.com/favicon.ico",
 };
 
 const skills = [
